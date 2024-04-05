@@ -19,6 +19,7 @@ const getSum = () => {
     totalCell.colSpan = 2; // Span across both columns
     totalCell.textContent = "Total Price: Rs " + totalPrice;
     newRow.appendChild(totalCell);
+	newRow.Id = "ans";
 
     // Step 4: Append the new row to the table
     const table = document.querySelector("table");
